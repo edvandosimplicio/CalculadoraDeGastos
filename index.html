@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora Vandin</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+<nav>
+      <img src="img/money.png"
+     </nav>
+    <header>
+      <h1>Calcular salário menos os seus gastos</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div>
+            <fieldset style="width: 50%;">  
+              <legend>Seu salário: </legend>
+              <div>
+                <label>1º: </label>
+                <input id="primeiro-valor" type="number" value="0"></input>
+              </div>
+            </fieldset>
+            <fieldset style="width: 50%;">
+              <legend>Seus gastos: </legend>
+              <div>
+                <label for="segundo-valor">2º</label>
+                <input id="segundo-valor" type="number" value="0"/>
+              </div>
+            </fieldset >
+         <button onclick="calcularValorHora()">Calcular</button>
+          </div>
+        <footer>
+          <h3>
+            <span id="resposta">Salário menos os seus gastos R$: 0,00 </span>
+            <p>--------------</p>
+          </h3>
+        </footer>
+      </section>
+      
+    </main>
+    <footer>Feito por; Edvando Simplício. </footer>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
